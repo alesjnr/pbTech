@@ -1,0 +1,12 @@
+{
+  "allTests": [
+    "cypress/tests/e2e/selectorsCss.cy.js",
+    "cypress/tests/integration/httpMethods.cy.js"
+  ],
+  "guiTests": [
+    "cypress/tests/e2e/selectorsCss.cy.js"
+  ],
+  "apiTests": [
+    "cypress/tests/integration/httpMethods.cy.js"
+  ]
+}

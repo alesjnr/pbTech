@@ -1,0 +1,29 @@
+{
+  "name": "parana_banco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open_allTests": "npx cypress open --env specPattern=allTests",
+    "run_allTests": "npx cypress run --env specPattern=allTests",
+    "open_guiTests": "npx cypress open --env specPattern=guiTests",
+    "run_guiTests": "npx cypress run --env specPattern=guiTests",
+    "open_apiTests": "npx cypress open --env specPattern=apiTests",
+    "run_apiTests": "npx cypress run --env specPattern=apiTests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.23.2",
+    "@babel/eslint-parser": "7.22.15",
+    "@babel/preset-env": "7.23.2",
+    "@cypress/webpack-preprocessor": "6.0.0",
+    "@faker-js/faker": "^8.2.0",
+    "babel-loader": "9.1.3",
+    "cypress": "^13.5.0",
+    "eslint": "8.53.0",
+    "eslint-plugin-cypress": "2.15.1",
+    "webpack": "5.89.0"
+  }
+}
